@@ -86,3 +86,8 @@ Audited by [Spearbit](https://spearbit.com/) and Coinbase Protocol Security.
 | Coinbase Protocol Security audit 3 | 04/15/2025 | [Report](audits/CommercePaymentsAudit3CoinbaseProtoSec.pdf) |
 | Spearbit audit 2 | 04/22/2025 | [Report](audits/Cantina-Report-04-22-2025.pdf) |
 | Spearbit audit 3 (rounding and billing change, v1.1.0, #90) | 07/22/2026 | [Report](audits/report-cli-cantina-eb1cc8bc-577c-422d-ad76-db7495f29a5a-2026-07-22-coinbase-commerce-payments-pr-90.pdf) |
+
+
+## Parcours francais
+
+Une lecture commentee en francais du code source de ce depot est disponible dans [docs/fr/](docs/fr/README.md) : 13 chapitres couvrant AuthCaptureEscrow, PaymentInfo, TokenStore, les cinq TokenCollector (ERC-3009, Permit2, PreApproval, SpendPermission, OperatorRefund), le cycle authorize/capture/charge/void/reclaim/refund et le modele de frais.
